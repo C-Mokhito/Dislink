@@ -10,7 +10,7 @@ namespace Dislink.Functions
 {
     public class Global : PlayerEvents
     {
-        private static readonly Regex URL = new Regex(@"(?i)\b((https?|ftp):\/\/)?(www\.)?([a-z0-9-]+\.)+[a-z]{2,}(\/\S*)?\b", RegexOptions.Compiled);
+        private static readonly Regex URL = new Regex(@"(?i)\b((h(?:tt|xx)p[s]?|ftp):\/\/|\bwww[.]|(?:[a-z0-9-]+\s?(?:[.()]|\bdot\b)\s?)+[a-z]{2,})(\/\S*)?", RegexOptions.Compiled);
 
         private static readonly string BasePath = Path.Combine("Plugins", "Dislink");
 
