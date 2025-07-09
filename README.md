@@ -4,14 +4,10 @@ Dislink is a lightweight system for Broke Protocol that automatically detects an
 
 # Default settings
 
-| Flag       | Param              | Type          | Effect                                         | Note                                                                 |
-|------------|--------------------|---------------|------------------------------------------------|----------------------------------------------------------------------|
-| nosteal    |                    | ShEntity      | Viewing the inventory is disabled              |                                                                      |
-| anim       | animName           | ShEntity      | Force to play the animation animName           |                                                                      |
-| godmode    |                    | ShDamageable  | Damages are disabled                           |                                                                      |
-| nomount    |                    | ShMountable   | Mounting this entity is disabled               |                                                                      |
-| norotate   |                    | ShPlayer      | Auto-rotation is disabled                      |                                                                      |
-| noai       |                    | ShPlayer      | AI is disabled                                 |                                                                      |
-| norestrain |                    | ShPlayer      | Cuffing the NPC is disabled                    |                                                                      |
-| mount      | seatIndex (optional) | ShPlayer    | Mounts the closest available mountable at seatIndex | Without seatIndex, the NPC will mount any seat of the closest available mountable |
+| Setting        | Parameter        | Note                                             |
+|----------------|------------------|--------------------------------------------------|
+| whitelist      |                  | Enables link exceptions for certain users/groups |
+| globalmessage  | messageText      | Message displayed globally when a link is blocked |
+| localmessage   | messageText      | Message displayed locally to the player only     |
+
 
